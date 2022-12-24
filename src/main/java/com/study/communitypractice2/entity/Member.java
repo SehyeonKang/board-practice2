@@ -9,8 +9,8 @@ import javax.persistence.*;
 import javax.validation.constraints.NotEmpty;
 
 @Entity @Data
+@Builder
 @NoArgsConstructor
-@AllArgsConstructor
 public class Member {
 
     @Id
